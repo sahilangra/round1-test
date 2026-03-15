@@ -87,3 +87,16 @@ LANGFUSE_BASE_URL="http://localhost:3000"
     - You can see the traces of every LLM call and document ingestion event.
     - Enable evaluation and run evals to evaluate the model performance on the go.
 ---
+
+## 🚀 Future Roadmap & Improvements
+
+To evolve the **AI Leadership Insight & Decision Agent** into a production-grade enterprise solution, the following improvements are planned:
+
+*   **Advanced Prompt Management**: Transition from hardcoded strings to a centralized management system. This will enable seamless prompt versioning, A/B testing, and easier collaboration for prompt engineering.
+*   **Enterprise-Grade Secrets Management**: Move beyond `.env` files to robust, cloud-native solutions like **AWS Secrets Manager**, **Azure Key Vault**, or **GCP Secret Manager** to ensure secure handling of API keys and database credentials.
+*   **Full Containerization**: Provide a refined `Dockerfile` and `docker-compose.yml` optimized for production environments. This will ensure consistent deployment across staging and production clusters (e.g., Kubernetes).
+*   **Multi-Format Document Support**: Expand ingestion capabilities beyond PDFs to include common business formats such as **Microsoft Word (.docx)**, **Excel (.xlsx)**, and **PowerPoint (.pptx)**.
+*   **Native Enterprise Connectors**: Implement direct integrations with widespread data silos, including **SharePoint**, **Amazon S3**, **Google Drive**, and **Microsoft OneDrive**, to automate document syncing.
+*   **Systemic Agent Hardening**: Increase reliability through automated adversarial testing and systematic prompt evaluation using **Langfuse**. This includes building a specialized "eval set" of leadership questions to monitor quality over time.
+
+---
