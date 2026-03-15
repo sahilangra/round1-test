@@ -81,8 +81,7 @@ LANGFUSE_BASE_URL="http://localhost:3000"
     - Upload your Annual Reports, Quarterly Updates, or Strategy PDFs. 
     - Click **"Process Documents"**.
 3.  **Start Querying:**
-    - Navigate to the **"Inference"** page.
-    - Ask strategic questions like: *"What was our revenue growth in FY2023 compared to FY2024?"* or *"Summarize the risk factors mentioned in the latest Q3 report."*
+    - Navigate to the **"Inference"** page
 3.  **Observability**
     - Head over to Langfuse dashboard at `http://localhost:3000`.
     - You can see the traces of every LLM call and document ingestion event.
