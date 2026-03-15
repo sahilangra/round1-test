@@ -19,7 +19,7 @@ An advanced, RAG-powered assistant designed to assist executive leadership and s
 
 ### 1. Prerequisites
 - **Python **
-- A **Google Gemini API Key** (Get one at [Google AI Studio](https://aistudio.google.com/))
+- A **Google Gemini API Key** 
 - (Optional) **Docker & Docker Compose** (For local Langfuse hosting)
 
 ### 2. Installation
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ### 3. Setup Observability (Optional)
 To enable tracing and monitoring, you can run a local instance of Langfuse:
 
-1.  Follow the [Langfuse Self-Hosting Guide](https://langfuse.com/self-hosting/deployment/docker-compose). [ optional ]
+1.  Follow the Langufse self hosting guide. [ optional ]
 2.  Quick start with Docker Compose:
     ```bash
     # Run in a separate terminal
@@ -81,8 +81,7 @@ LANGFUSE_BASE_URL="http://localhost:3000"
     - Upload your Annual Reports, Quarterly Updates, or Strategy PDFs.
     - Click **"Process Documents"**.
 3.  **Start Querying:**
-    - Navigate to the **"Inference"** page.
-    - Ask strategic questions like: *"What was our revenue growth in FY2023 compared to FY2024?"* or *"Summarize the risk factors mentioned in the latest Q3 report."*
+    - Navigate to the **"Inference"** page
 3.  **Observability**
     - Head over to Langfuse dashboard at `http://localhost:3000`.
     - You can see the traces of every LLM call and document ingestion event.
