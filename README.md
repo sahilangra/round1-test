@@ -78,7 +78,7 @@ LANGFUSE_BASE_URL="http://localhost:3000"
     ```
 2.  **Ingest Documents:**
     - Navigate to the **"Ingestion"** page.
-    - Upload your Annual Reports, Quarterly Updates, or Strategy PDFs. 
+    - Upload your Annual Reports, Quarterly Updates, or Strategy PDFs.
     - Click **"Process Documents"**.
 3.  **Start Querying:**
     - Navigate to the **"Inference"** page.

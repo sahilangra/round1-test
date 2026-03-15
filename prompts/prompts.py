@@ -60,14 +60,14 @@ Rules:
 
 Example format:
 <chart_data>
-{
+{{
     "title": "Revenue Growth 2023-2025",
     "type": "line",
-    "data": {
+    "data": {{
         "Year": ["2023", "2024", "2025"],
         "Revenue (B)": [4.6, 5.2, 5.8]
-    }
-}
+    }}
+}}
 </chart_data>
 
 If no suitable quantitative data is found for a chart, do not include the <chart_data> tag.

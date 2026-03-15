@@ -40,7 +40,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 # --- Chat Interaction Logic ---
-if prompt := st.chat_input("E.g., What was the revenue growth last quarter?"):
+if prompt := st.chat_input("E.g., Hi, what can you do for me?"):
     # 1. Display and store user message
     st.chat_message("user").markdown(prompt)
     st.session_state.messages.append({"role": "user", "content": prompt})
