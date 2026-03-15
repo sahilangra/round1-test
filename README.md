@@ -19,7 +19,7 @@ An advanced, RAG-powered assistant designed to assist executive leadership and s
 
 ### 1. Prerequisites
 - **Python **
-- A **Google Gemini API Key** (Get one at [Google AI Studio](https://aistudio.google.com/))
+- A **Google Gemini API Key** 
 - (Optional) **Docker & Docker Compose** (For local Langfuse hosting)
 
 ### 2. Installation
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ### 3. Setup Observability (Optional)
 To enable tracing and monitoring, you can run a local instance of Langfuse:
 
-1.  Follow the [Langfuse Self-Hosting Guide](https://langfuse.com/self-hosting/deployment/docker-compose). [ optional ]
+1.  Follow the Langufse self hosting guide. [ optional ]
 2.  Quick start with Docker Compose:
     ```bash
     # Run in a separate terminal
